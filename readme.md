@@ -23,15 +23,25 @@ psql
 # Create database
 CREATE DATABASE carmen;
 
+<<<<<<< b954ab7491f51c8030b39f54142d680ab3940fe7
 # Connect to carmen
 \c carmen
 \i world.SQL
+=======
+# Connect to carmen
+\c carmen
+\i world.SQL
+>>>>>>> initial commit
 ```
 
 **Pro Tip:** You can do this in one step with the command:
 
 ```bash
+<<<<<<< b954ab7491f51c8030b39f54142d680ab3940fe7
 psql -d carmen -f /your/path/to/this/file/starter-code/world.sql
+=======
+psql -d carmen -f /your/path/to/this/file/starter-code/world.sql
+>>>>>>> initial commit
 ```
 
 Then, use the clues below to create the appropriate SQL queries to help you find Carmen and then, tell us where she's heading!!
