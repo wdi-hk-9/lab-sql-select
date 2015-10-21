@@ -23,25 +23,15 @@ psql
 # Create database
 CREATE DATABASE carmen;
 
-<<<<<<< b954ab7491f51c8030b39f54142d680ab3940fe7
 # Connect to carmen
 \c carmen
 \i world.SQL
-=======
-# Connect to carmen
-\c carmen
-\i world.SQL
->>>>>>> initial commit
 ```
 
 **Pro Tip:** You can do this in one step with the command:
 
 ```bash
-<<<<<<< b954ab7491f51c8030b39f54142d680ab3940fe7
 psql -d carmen -f /your/path/to/this/file/starter-code/world.sql
-=======
-psql -d carmen -f /your/path/to/this/file/starter-code/world.sql
->>>>>>> initial commit
 ```
 
 Then, use the clues below to create the appropriate SQL queries to help you find Carmen and then, tell us where she's heading!!
@@ -83,6 +73,15 @@ Again, be sure to grab the .sql file from the [starter-code](starter-code/world.
 Use the clues.sql file to write in the SQL queries that correspond with each clue and tell us where she's heading at the bottom:
 
 <p align="center">
+  <img src ="http://s3.postimg.org/8386vdt43/Screen_Shot_2015_07_08_at_8_11_25_PM.png">
+</p>
+
+
+## Additional Resources
+
+- [PostgreSQL tutorial](http://www.tutorialspoint.com/postgresql/)
+- [PostgreSQL official documentation](http://www.postgresql.org/docs/)
+"center">
   <img src ="http://s3.postimg.org/8386vdt43/Screen_Shot_2015_07_08_at_8_11_25_PM.png">
 </p>
 
