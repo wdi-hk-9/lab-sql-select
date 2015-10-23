@@ -38,7 +38,7 @@ SELECT name,capital FROM country WHERE code='ARG';
  -- follow right behind you!
 SELECT name,capital FROM country WHERE code='ARG';
 #=>69
-SELECT * FROM city WHERE id=2515;
+SELECT * FROM city WHERE id=69;
 #=>Buenos Aires
 
 
