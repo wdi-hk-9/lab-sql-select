@@ -3,14 +3,14 @@
 -- so find the least populated country in Southern Europe, and we'll start looking for her there.
 
 select name from country where region = 'Southern Europe' order by population;
--- //Holy See (Vatican City State) Country Code = VAT
+//Holy See (Vatican City State) Country Code = VAT
 
 -- Clue #2: Now that we're here, we have insight that Carmen was seen attending language classes in
 -- this country's officially recognized language. Check our databases and find out what language is
 -- spoken in this country, so we can call in a translator to work with you.
 
 select language from countrylanguage where countrycode = 'VAT';
--- //Italian
+//Italian
 
 -- Clue #3: We have new news on the classes Carmen attended – our gumshoes tell us she's moved on
 -- to a different country, a country where people speak only the language she was learning. Find out which
@@ -37,7 +37,7 @@ select * from countrylanguage where language = 'Italian' and isofficial = 't';
    id  |    name    | countrycode |     district      | population
 ------+------------+-------------+-------------------+------------
  3170 | Serravalle | SMR         | Serravalle/Dogano |       4802
- -- 3171 | San Marino | SMR         | San Marino        |       2294
+ 3171 | San Marino | SMR         | San Marino        |       2294
 
 -- select city.name, city.countrycode, country.continent from city, country where city.name != country.name;
 
@@ -60,6 +60,7 @@ select * from country where code = 'BRA';
 
 select capital from country where name = 'Brazil';
 -- 211
+select * from city where id = 211;
 
 -- Clue #7: She knows we're on to her – her taxi dropped her off at the international airport, and she beat us to
  -- the boarding gates. We have one chance to catch her, we just have to know where she's heading and beat her to the landing dock.
@@ -74,17 +75,12 @@ select capital from country where name = 'Brazil';
 -- So I'm off to add one to the population I find
 -- In a city of ninety-one thousand and now, eighty five.
 
-select * from city where population =''91000;
+select * from city where population = 91084;
 
-  id  |    name     | countrycode | district | population
-------+-------------+-------------+----------+------------
- 3196 | Najran      | SAU         | Najran   |      91000
- 3765 | Krasnogorsk | RUS         | Moskova  |      91000
-
- select * from country where code ='SAU' or code = 'RUS';
+  id  |     name     | countrycode |  district  | population
+------+--------------+-------------+------------+------------
+ 4060 | Santa Monica | USA         | California |      91084
 
 -- We're counting on you, gumshoe. Find out where she's headed, send us the info, and we'll be sure to meet her at the gates with bells on.
 
-
-
--- She's in Najran!
+-- She's in Santa Monica!
