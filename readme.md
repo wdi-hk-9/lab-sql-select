@@ -1,10 +1,10 @@
-# Use SQL to find Carmen Sandiego
+# Use SQL to Find Carmen Sandiego
 
 ## Introduction
 
 > ***Note:*** _This can be a pair programming activity or done independently._
 
-#### Where In The World Is Carmen Sandiego?
+#### Where in the World Is Carmen Sandiego?
 
 We're going to use what we've learned already about searching with SQL commands, and apply it to chase down and capture an elusive and world-reknowned thief, Carmen Sandiego. Follow the clues, use the interweb - write down both the SQL commands /queries you used and your answers to the clues - and figure out where Carmen's headed, so we can catch her and bring her in.
 
@@ -54,17 +54,14 @@ Then, use the clues below to create the appropriate SQL queries to help you find
 
   - **Clue #8** Lucky for us, she's getting cocky. She left us a note, and I'm sure she thinks she's very clever, but if we can crack it, we can finally put her where she belongs – behind bars.
 
-```
-  Our playdate of late has been unusually fun –
-  As an agent, I'll say, you've been a joy to outrun.
-  And while the food here is great, and the people – so nice!
-  I need a little more sunshine with my slice of life.
-  So I'm off to add one to the population I find
-  In a city of ninety-one thousand and now, eighty five.
-```
+    > Our playdate of late has been unusually fun –  
+    > As an agent, I'll say, you've been a joy to outrun.  
+    > And while the food here is great, and the people – so nice!  
+    > I need a little more sunshine with my slice of life.  
+    > So I'm off to add one to the population I find  
+    > In a city of ninety-one thousand and now, eighty five.
 
-
-#### Starter code
+#### Starter Code
 
 Again, be sure to grab the .sql file from the [starter-code](starter-code/world.sql) and run it in your PostgreSQL terminal using the commands above.
 
